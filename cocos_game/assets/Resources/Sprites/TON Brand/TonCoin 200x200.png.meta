@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "7d60380d-a453-4722-959a-bf007f4d1232",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 200,
+  "height": 200,
+  "platformSettings": {},
+  "subMetas": {
+    "TonCoin 200x200": {
+      "ver": "1.0.6",
+      "uuid": "a133ba34-3b83-4c73-8ad6-6cf18018ea80",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "7d60380d-a453-4722-959a-bf007f4d1232",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 199,
+      "height": 200,
+      "rawWidth": 200,
+      "rawHeight": 200,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

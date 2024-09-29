@@ -1,0 +1,96 @@
+{
+  "group-list": [
+    "Snake",
+    "Obstacle",
+    "HeadSnake",
+    "SnakeNode",
+    "Collectable",
+    "SnakeHead",
+    "Head"
+  ],
+  "collision-matrix": [
+    [
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      null,
+      false,
+      null,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      null,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true
+    ]
+  ],
+  "excluded-modules": [
+    "3D Physics/Builtin"
+  ],
+  "preview-port": 7456,
+  "design-resolution-width": 960,
+  "design-resolution-height": 640,
+  "fit-width": false,
+  "fit-height": true,
+  "use-project-simulator-setting": false,
+  "simulator-orientation": false,
+  "use-customize-simulator": true,
+  "simulator-resolution": {
+    "width": 960,
+    "height": 640
+  },
+  "clear-simulator-cache": true,
+  "facebook": {
+    "enable": false,
+    "appID": "",
+    "live": {
+      "enable": false
+    },
+    "audience": {
+      "enable": false
+    }
+  },
+  "last-module-event-record-time": 1716975790360,
+  "start-scene": "23080f65-be24-483e-a22b-f795d17e9972"
+}

@@ -13,7 +13,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "CoinDropCoin",
+    "_name": "CoinDropIce",
     "_objFlags": 0,
     "_parent": null,
     "_children": [
@@ -82,7 +82,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "blur",
+    "_name": "download-ezgif",
     "_objFlags": 0,
     "_parent": {
       "__id__": 1
@@ -100,15 +100,15 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
+      "r": 0,
+      "g": 91,
+      "b": 253,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 85,
-      "height": 85
+      "width": 99,
+      "height": 100
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -267,7 +267,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "6e0b5f17-be98-4e59-b758-e3bcc9ef7c44"
+      "__uuid__": "f699dd62-d7e0-401c-9937-110c17f1108d"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -295,7 +295,7 @@
     "sync": false
   },
   {
-    "__type__": "96afaLzRzVERaVzy0OaCbat",
+    "__type__": "5fbb0X3veFLO5C7DDO4Hi0E",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -305,23 +305,6 @@
     "mySp": {
       "__id__": 6
     },
-    "listSp": [
-      {
-        "__uuid__": "6e0b5f17-be98-4e59-b758-e3bcc9ef7c44"
-      },
-      {
-        "__uuid__": "ce61df06-00d5-4f4d-b3fc-2e658af6074c"
-      },
-      {
-        "__uuid__": "935c375e-9740-4969-acc5-b7db2c4ad99e"
-      },
-      {
-        "__uuid__": "6ed46059-e027-408f-8dff-3418b54b235b"
-      },
-      {
-        "__uuid__": "99794439-82b9-4917-a95e-d0f5f7170496"
-      }
-    ],
     "_id": ""
   },
   {

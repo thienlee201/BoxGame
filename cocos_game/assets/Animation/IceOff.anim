@@ -1,0 +1,57 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "IceOff",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.1,
+  "sample": 60,
+  "speed": 0.15,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "sp": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "571ab70f-35a4-4aa6-9552-59131853be11"
+                }
+              },
+              {
+                "frame": 0.016666666666666666,
+                "value": {
+                  "__uuid__": "e2eb0a3f-a54a-4216-9c51-dcd2d0f39713"
+                }
+              },
+              {
+                "frame": 0.03333333333333333,
+                "value": {
+                  "__uuid__": "cbd377ad-cc90-4dad-8988-f77c87af668b"
+                }
+              },
+              {
+                "frame": 0.05,
+                "value": {
+                  "__uuid__": "0bbecfa9-c6e3-48ff-a23e-c5c07c258497"
+                }
+              },
+              {
+                "frame": 0.06666666666666667,
+                "value": {
+                  "__uuid__": "e181dd82-c2d0-4491-a060-099749dc0bb9"
+                }
+              },
+              {
+                "frame": 0.08333333333333333,
+                "value": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

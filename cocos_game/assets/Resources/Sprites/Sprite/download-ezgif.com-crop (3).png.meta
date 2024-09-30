@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "011237b5-41aa-4824-b7c8-f1ec7bb507a9",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 19,
+  "height": 19,
+  "platformSettings": {},
+  "subMetas": {
+    "download-ezgif.com-crop (3)": {
+      "ver": "1.0.6",
+      "uuid": "e16443fc-b920-499f-8cd9-aa18a4b8802c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "011237b5-41aa-4824-b7c8-f1ec7bb507a9",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 19,
+      "height": 19,
+      "rawWidth": 19,
+      "rawHeight": 19,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

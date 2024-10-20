@@ -1359,8 +1359,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 110.95,
-      "height": 31.5
+      "width": 195,
+      "height": 44.1
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1414,10 +1414,10 @@
     "_string": "Coin Drop",
     "_N$string": "Coin Drop",
     "_fontSize": 25,
-    "_lineHeight": 25,
+    "_lineHeight": 35,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "6711ea57-8255-4a51-95d3-51792b9d8974"
+      "__uuid__": "b61f5d03-181c-4309-9756-02e4c11fb875"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
@@ -1456,8 +1456,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 225.78,
-      "height": 18.9
+      "width": 279.99,
+      "height": 31.5
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1510,11 +1510,11 @@
     "_dstBlendFactor": 771,
     "_string": "Collect coins falling from the sky.",
     "_N$string": "Collect coins falling from the sky.",
-    "_fontSize": 15,
-    "_lineHeight": 15,
+    "_fontSize": 10,
+    "_lineHeight": 25,
     "_enableWrapText": true,
     "_N$file": {
-      "__uuid__": "6711ea57-8255-4a51-95d3-51792b9d8974"
+      "__uuid__": "b61f5d03-181c-4309-9756-02e4c11fb875"
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,

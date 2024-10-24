@@ -93,7 +93,7 @@ export default class MainScreenController extends cc.Component {
                 SceneController.instance.openScene("LearnScene")
                 break;
             case 2:
-                // SceneController.instance.openScene("GameHubScene")
+                SceneController.instance.openScene("TaskScene")
                 break;
             case 3:
                 // SceneController.instance.openScene("GameHubScene")

@@ -395,7 +395,7 @@ export default class Utils extends cc.Component {
 
    public static async callAPI(onComplete = null, param = null) {
       let method = "POST";
-      let url = GlobalVar.API_URL;
+      let url = "";
 
       try {
          let xhr = new XMLHttpRequest();
@@ -643,5 +643,9 @@ export default class Utils extends cc.Component {
       const lightness = 0.77; // Middle lightness for vivid colors
       const rgb = Utils.hslToRgb(hue / 360, saturation, lightness);
       return cc.color(rgb[0], rgb[1], rgb[2])
+   }
+
+   public static Vec2ToAngle(vec2: cc.Vec2): number {
+      return Math.atan2(vec2.y, vec2.x) * 180 / Math.PI
    }
 }

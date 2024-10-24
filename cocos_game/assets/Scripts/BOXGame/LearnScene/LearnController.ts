@@ -5,6 +5,8 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/2.4/manual/en/scripting/life-cycle-callbacks.html
 
+import SceneController from "../SceneController";
+
 const { ccclass, property } = cc._decorator;
 
 @ccclass
@@ -155,8 +157,13 @@ export default class NewClass extends cc.Component {
     }
 
     doneLesson(){
-        cc.director.loadScene("SubmitScene");
+        SceneController.instance.summitData("LearnScene")
     }
+
+    onGoHome(){
+        SceneController.instance.openScene("MainScene")
+    }
+
 
     // update (dt) {}
 }

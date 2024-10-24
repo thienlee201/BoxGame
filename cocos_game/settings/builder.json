@@ -1,7 +1,7 @@
 {
-  "title": "HyperSnake",
+  "title": "BoxGame",
   "packageName": "org.cocos2d.demo",
-  "startScene": "23080f65-be24-483e-a22b-f795d17e9972",
+  "startScene": "d002644b-123a-439d-ace4-2ad124442eff",
   "excludeScenes": [],
   "orientation": {
     "landscapeRight": true,
@@ -15,7 +15,7 @@
   "mainCompressionType": "default",
   "mainIsRemote": false,
   "optimizeHotUpdate": false,
-  "md5Cache": true,
+  "md5Cache": false,
   "nativeMd5Cache": true,
   "encryptJs": true,
   "xxteaKey": "48161434-4619-45",
@@ -52,7 +52,7 @@
   },
   "appBundle": false,
   "agreements": {
-    "20200831115453": true,
-    "20220901093311": true
+    "20200831115453": false,
+    "20220901093311": false
   }
 }

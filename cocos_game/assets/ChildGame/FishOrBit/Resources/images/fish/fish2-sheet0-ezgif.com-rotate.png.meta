@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "0a06654f-1f08-460f-a208-9b2741ce16b7",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 344,
+  "height": 104,
+  "platformSettings": {},
+  "subMetas": {
+    "fish2-sheet0-ezgif.com-rotate": {
+      "ver": "1.0.6",
+      "uuid": "286bba3d-3786-43ad-a79e-8ca177538abb",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "0a06654f-1f08-460f-a208-9b2741ce16b7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0.5,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 344,
+      "height": 103,
+      "rawWidth": 344,
+      "rawHeight": 104,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

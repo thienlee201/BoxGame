@@ -6,6 +6,7 @@
 //  - https://docs.cocos.com/creator/2.4/manual/en/scripting/life-cycle-callbacks.html
 
 import Utils from "../../Utilities/Utils";
+import SceneController from "../SceneController";
 
 const {ccclass, property} = cc._decorator;
 
@@ -21,6 +22,7 @@ export default class CoinDropController extends cc.Component {
     @property(cc.Node) IceAnim: cc.Node = null;
     @property(cc.Node) endGameAnim: cc.Node = null;
     @property(cc.Node) endGameMask: cc.Node = null;
+    @property(cc.Node) submitBTN: cc.Node = null;
     @property(cc.Label) myScore: cc.Label = null;
     @property(Array(cc.Node)) listPointNode: Array<cc.Node> = Array<cc.Node>();
     @property(Array(cc.Node)) listPointFinalNode: Array<cc.Node> = Array<cc.Node>();
@@ -44,7 +46,7 @@ export default class CoinDropController extends cc.Component {
 
         this.scheduleOnce(()=>{
             this.endGame();
-        }, 10)
+        }, 40)
     }
 
     addPoint(index: number){
@@ -100,7 +102,11 @@ export default class CoinDropController extends cc.Component {
                 fakeNode.angle =0;
                 cc.tween(fakeNode).to(2, {angle: totalScore}, {onUpdate: ()=>{
                     this.myScore.string = "Your Score: "+Math.floor(fakeNode.angle);
-                }}).start()
+                }})
+                .call(()=>{
+                    this.submitBTN.active = true;
+                })
+                .start()
         }, this.listPointFinalNode.length*0.16)
     }
 
@@ -123,5 +129,9 @@ export default class CoinDropController extends cc.Component {
             }
             this.nextTimeSpawn-=dt;
         }
+    }
+
+    onSubmit(){
+        SceneController.instance.summitData("GameHubScene")
     }
 }

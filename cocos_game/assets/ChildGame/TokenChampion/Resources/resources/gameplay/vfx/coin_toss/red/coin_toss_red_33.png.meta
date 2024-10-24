@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3a96f14d-679c-4cc3-b45e-f44d43e4ec38",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 367,
+  "height": 328,
+  "platformSettings": {},
+  "subMetas": {
+    "coin_toss_red_33": {
+      "ver": "1.0.6",
+      "uuid": "6f7cf4dc-3312-4928-a576-979d00f9337f",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3a96f14d-679c-4cc3-b45e-f44d43e4ec38",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -32,
+      "offsetY": 11.5,
+      "trimX": 82,
+      "trimY": 84,
+      "width": 139,
+      "height": 137,
+      "rawWidth": 367,
+      "rawHeight": 328,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

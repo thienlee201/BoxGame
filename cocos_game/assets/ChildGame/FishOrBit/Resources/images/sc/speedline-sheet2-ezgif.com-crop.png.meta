@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "983265f1-2ffc-41fc-b53c-541eb025534b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 771,
+  "height": 1282,
+  "platformSettings": {},
+  "subMetas": {
+    "speedline-sheet2-ezgif.com-crop": {
+      "ver": "1.0.6",
+      "uuid": "176aada3-5f7f-4ff5-b616-7983071a7b74",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "983265f1-2ffc-41fc-b53c-541eb025534b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 770,
+      "height": 1282,
+      "rawWidth": 771,
+      "rawHeight": 1282,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

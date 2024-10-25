@@ -42,13 +42,12 @@ export default class TokenChampionController extends cc.Component {
         this.updateSound();
     }
     onClickClaimAndGoHome(){
-        
-
-        this.onClickGoHome();
+        LocalStorage.setPlayerPower(parseInt(LocalStorage.getPlayerPower())+(parseInt(this.myScore.string)*20))
+        SceneController.instance.summitData("GameHubScene")
     }
 
     onClickGoHome(){
-        SceneController.instance.summitData("GameHubScene")
+        SceneController.instance.openScene("GameHubScene")
     }
 
     turnAudio(){

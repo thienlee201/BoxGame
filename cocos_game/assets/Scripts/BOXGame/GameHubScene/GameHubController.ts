@@ -41,5 +41,9 @@ export default class GameHubController extends cc.Component {
         SceneController.instance.openScene("MainScene")
     }
 
+    comingSoon(){
+        SceneController.instance.CMS();
+    }
+
     // update (dt) {}
 }

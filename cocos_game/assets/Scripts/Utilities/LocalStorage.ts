@@ -158,4 +158,38 @@ export default class LocalStorage extends cc.Component {
       } else return dt;
    }
 
+
+   public static setPlayerPower(value: number) { cc.sys.localStorage.setItem("GameBox"+ '-' + 'PlayerPower', value) }
+   public static getPlayerPower() {
+      let data = cc.sys.localStorage.getItem("GameBox"+ '-' + 'PlayerPower')
+      if (!cc.isValid(data)) {
+         cc.sys.localStorage.setItem("GameBox"+ '-' + 'PlayerPower', 0);
+         return 0;
+      } else return data;
+   }
+   public static setPlayerKnown(value: number) { cc.sys.localStorage.setItem("GameBox"+ '-' + 'PlayerKnown', value) }
+   public static getPlayerKnown() {
+      let data = cc.sys.localStorage.getItem("GameBox"+ '-' + 'PlayerKnown')
+      if (!cc.isValid(data)) {
+         cc.sys.localStorage.setItem("GameBox"+ '-' + 'PlayerKnown', 0);
+         return 0;
+      } else return data;
+   }
+   public static setPlayerTrust(value: number) { cc.sys.localStorage.setItem("GameBox"+ '-' + 'PlayerTrust', value) }
+   public static getPlayerTrust() {
+      let data = cc.sys.localStorage.getItem("GameBox"+ '-' + 'PlayerTrust')
+      if (!cc.isValid(data)) {
+         cc.sys.localStorage.setItem("GameBox"+ '-' + 'PlayerTrust', 0);
+         return 0;
+      } else return data;
+   }
+   public static setPlayerConnect(value: number) { cc.sys.localStorage.setItem("GameBox"+ '-' + 'PlayerConnect', value) }
+   public static getPlayerConnect() {
+      let data = cc.sys.localStorage.getItem("GameBox"+ '-' + 'PlayerConnect')
+      if (!cc.isValid(data)) {
+         cc.sys.localStorage.setItem("GameBox"+ '-' + 'PlayerConnect', 0);
+         return 0;
+      } else return data;
+   }
+
 }

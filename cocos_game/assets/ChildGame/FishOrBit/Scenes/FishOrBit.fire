@@ -4802,7 +4802,7 @@
         1,
         1,
         1,
-        1
+        0
       ]
     },
     "_eulerAngles": {
@@ -4955,8 +4955,8 @@
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 2,
-    "transition": 2,
+    "_N$transition": 3,
+    "transition": 3,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 255,
@@ -5000,12 +5000,8 @@
       "a": 255
     },
     "_N$normalSprite": null,
-    "_N$pressedSprite": {
-      "__uuid__": "dba6954d-764e-47b7-ab1f-1adecbdec99c"
-    },
-    "pressedSprite": {
-      "__uuid__": "dba6954d-764e-47b7-ab1f-1adecbdec99c"
-    },
+    "_N$pressedSprite": null,
+    "pressedSprite": null,
     "_N$hoverSprite": null,
     "hoverSprite": null,
     "_N$disabledSprite": null,

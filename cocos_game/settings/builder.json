@@ -1,7 +1,7 @@
 {
   "title": "BoxGame",
   "packageName": "org.cocos2d.demo",
-  "startScene": "d002644b-123a-439d-ace4-2ad124442eff",
+  "startScene": "2f965b09-4df2-4005-8d07-4562ac67d22c",
   "excludeScenes": [],
   "orientation": {
     "landscapeRight": true,

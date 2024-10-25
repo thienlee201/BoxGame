@@ -5,6 +5,7 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/2.4/manual/en/scripting/life-cycle-callbacks.html
 
+import LocalStorage from "../../Utilities/LocalStorage";
 import Utils from "../../Utilities/Utils";
 import SceneController from "../SceneController";
 
@@ -132,6 +133,13 @@ export default class CoinDropController extends cc.Component {
     }
 
     onSubmit(){
+        let totalScore = 
+            this.arrPoint[0]*10 +
+            this.arrPoint[1]*8 +
+            this.arrPoint[2]*6 +
+            this.arrPoint[3]*4 +
+            this.arrPoint[4]*2;
+        LocalStorage.setPlayerPower(parseInt(LocalStorage.getPlayerPower())+totalScore)
         SceneController.instance.summitData("GameHubScene")
     }
 }

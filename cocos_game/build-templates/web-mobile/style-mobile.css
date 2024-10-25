@@ -107,15 +107,10 @@ p.footer {
     height: 100%;
     border-radius: 3px;
     transition: width .4s ease-in-out;
-    background-color: #3dc5de;
 }
 
 .stripes span {
-    background-size: 30px 30px;
-    background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
-                        transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
-                        transparent 75%, transparent);            
-    
+    background-size: 30px 30px;          
     animation: animate-stripes 1s linear infinite;             
 }
 

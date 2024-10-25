@@ -267,6 +267,7 @@ export default class GameController extends cc.Component {
     onClickGoHome() {
         cc.tween(this.blackView).to(1, {opacity: 255})
         .call(()=>{
+            LocalStorage.setPlayerPower(parseInt(LocalStorage.getPlayerPower())+this.currentScore)
             SceneController.instance.summitData("GameHubScene")
         })
         .start();

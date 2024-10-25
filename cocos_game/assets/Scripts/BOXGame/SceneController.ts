@@ -5,6 +5,7 @@ export default class SceneController extends cc.Component {
     // onLoad () {}
     static instance: SceneController;
 
+    @property(cc.Prefab) cmsPref: cc.Prefab = null;
     start () {
         cc.game.addPersistRootNode(this.node);
         SceneController.instance = this;
@@ -23,6 +24,15 @@ export default class SceneController extends cc.Component {
         this.scheduleOnce(()=>{
             cc.director.loadScene(sceneName);
         }, delay)
+    }
+
+    CMS(){
+        let newCMS = cc.instantiate(this.cmsPref);
+        let canvas = cc.find('Canvas');
+        canvas.addChild(newCMS);
+        this.scheduleOnce(()=>{
+            newCMS.destroy();
+        },2)
     }
 
 

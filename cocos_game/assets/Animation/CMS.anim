@@ -1,0 +1,75 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "CMS",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.45,
+  "sample": 60,
+  "speed": 0.5,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 0.08333333333333333,
+          "value": [
+            0,
+            29.578,
+            0
+          ]
+        },
+        {
+          "frame": 0.23333333333333334,
+          "value": [
+            0,
+            35.521,
+            0
+          ]
+        },
+        {
+          "frame": 0.36666666666666664,
+          "value": [
+            0,
+            122.172,
+            0
+          ]
+        },
+        {
+          "frame": 0.45,
+          "value": [
+            0,
+            174.899,
+            0
+          ]
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.08333333333333333,
+          "value": 255
+        },
+        {
+          "frame": 0.36666666666666664,
+          "value": 200
+        },
+        {
+          "frame": 0.45,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

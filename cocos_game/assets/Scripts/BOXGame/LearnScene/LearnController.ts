@@ -5,6 +5,7 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/2.4/manual/en/scripting/life-cycle-callbacks.html
 
+import LocalStorage from "../../Utilities/LocalStorage";
 import SceneController from "../SceneController";
 
 const { ccclass, property } = cc._decorator;
@@ -156,7 +157,12 @@ export default class NewClass extends cc.Component {
         }, 1.1)
     }
 
+    comingSoon(){
+        SceneController.instance.CMS();
+    }
+
     doneLesson(){
+        LocalStorage.setPlayerKnown(parseInt(LocalStorage.getPlayerKnown())+5)
         SceneController.instance.summitData("LearnScene")
     }
 

@@ -96,12 +96,17 @@ export default class MainScreenController extends cc.Component {
                 SceneController.instance.openScene("TaskScene")
                 break;
             case 3:
-                // SceneController.instance.openScene("GameHubScene")
+                SceneController.instance.CMS();
                 break;
             default:
                 break;
         }
     }
+
+    showProfileView() {
+        SceneController.instance.openScene("ProfileScene")
+    }
+
 
     // update (dt) {}
 }

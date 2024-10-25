@@ -68,7 +68,6 @@ p.footer {
 }
 
 .progress-bar {
-    background-color: #1a1a1a;
     position: absolute;
     left: 50%;
     top: 80%;
@@ -85,15 +84,10 @@ p.footer {
     border-radius: 5px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
     transition: width .4s ease-in-out; 
-    background-color: #3dc5de;
 }
 
 .stripes span {
-    background-size: 30px 30px;
-    background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
-                        transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
-                        transparent 75%, transparent);            
-    
+    background-size: 30px 30px;          
     animation: animate-stripes 1s linear infinite;             
 }
 
